@@ -4,6 +4,7 @@
     --mw-breakpoint-desktop: 144rem;
 
     --clr-accent-800: hsl(158, 41%, 18%);
+    --clr-accent-700: hsl(159, 43%, 28%);
     --clr-accent-400: hsl(158, 36%, 37%);
     --clr-primary-900: hsl(32, 37%, 92%);
 
@@ -232,9 +233,14 @@ body {
     border: none;
 }
 
-.details button:active {
+.details button:hover {
     background-color: var(--clr-accent-800);
     cursor: pointer;
+}
+
+.details button:active {
+    background-color: var(--clr-accent-700);
+    transform: translateY(4px);
 }
 
 .cta-btn-icon {
