@@ -159,6 +159,11 @@ svg {
 /* Body */
 body {
     background-color: var(--clr-primary-900);
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Card */
@@ -248,15 +253,6 @@ body {
 }
 
 @media (min-width: 42.5rem) {
-    /* Body */
-    body {
-        display: flex;
-        height: 100vh;
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-    }
-
     /* Card */
     .card {
         max-width: 65rem;
